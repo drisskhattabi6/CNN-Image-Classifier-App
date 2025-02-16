@@ -52,7 +52,7 @@ def predict(model, image_tensor, class_labels):
 st.title("Custom CNN Image Classifier")
 
 # Upload model code (CNN class)
-model_file = st.file_uploader("Upload your CNN model code (.py)", type=["py", "txt"])
+model_file = st.file_uploader("Upload your CNN model code (.py or .txt)", type=["py", "txt"])
 
 # Upload model weights
 weights_file = st.file_uploader("Upload your model weights (.pth)", type=["pth"])

@@ -1,1 +1,0 @@
-the size of the image shold be : 128 * 128
